@@ -1,0 +1,100 @@
+@media screen and (max-width: 779px) {
+  .content {
+    width: 100%;
+  }
+
+  #basket_content {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .order {
+    padding: 24px 0 16px 5px;
+  }
+
+.dine img {
+  display: none;
+}
+
+  header {
+    height: 75px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dine {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (min-width: 320px) {
+  .logo_container {
+    top: 170px;
+  }
+
+  .banner {
+    height: 200px;
+    width: 100%;
+    background-position-y: 65%;
+    background-position-x: center;
+  }
+
+  h2 {
+    font-size: 18.72px;
+  }
+
+  .addTobasket img {
+    padding: 7.5px;
+  }
+
+
+
+  #popUpBasket {
+    font-size: 14px;
+  }
+  .plus_minus_input {
+    width: 20px;
+  }
+
+  .mobileBasket {
+    min-width: 230px;
+  }
+
+}
+
+@media screen and (min-width: 780px) {
+  .pay_mobile_btn {
+    display: none;
+  }
+
+  .mobileBasket {
+    display: none;
+  }
+  .d-none-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .d-none-mobile {
+    display: none;
+  }
+
+  #popUp-dial {
+    top: 0%; 
+    height: 90%;
+    width: 100%;
+    border-radius: 0;
+  }
+}

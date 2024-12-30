@@ -1,0 +1,38 @@
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.dine p:hover {
+  color: rgb(119, 136, 153);
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.highlight {
+  background: #242e30;
+  padding: 4px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.highlight:hover {
+  color: none;
+}
+
+
+footer p {
+  color: white;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.mobileBasket p {
+  text-align: center;
+}
