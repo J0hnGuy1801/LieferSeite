@@ -1,0 +1,140 @@
+.header_logo {
+  padding: 24px 0px 16px 24px;
+}
+
+.header_logo img {
+  width: 150px;
+  display: block;
+}
+
+.dish_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.content {
+  width: calc(100% - 280px);
+}
+
+
+.food_content {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.banner {
+  background-image: url(./img/assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+  width: 100%;
+  background-position-y: 65%;
+}
+
+.restaurant_info {
+  padding: 16px 0 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 4px 2px -2px;
+}
+
+
+#total {
+  margin-top: 10px;
+}
+.dine {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+
+.order {
+  padding: 16px 16px 16px 16px;
+  ;
+}
+
+.headline {
+  margin-bottom: 10px;
+}
+
+.dishes:hover img {
+  background: white;
+  transition: ease-in-out 0.4s;
+}
+
+.addTobasket img {
+  background: lightgray;
+  width: 30px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.food_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_container {
+  width: 90%;
+  height: 140px;
+  background-color: white;
+  display: flex;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 0 0 10px 13px;
+}
+
+.logo_container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  width: 65px;
+  border-radius: 91px;
+  padding: 5px;
+}
+
+.logo_container img {
+  width: 45px;
+  margin: auto;
+  display: block;
+}
+
+.banner_container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+.choosenFood img {
+  width: 16px;
+  cursor: pointer;
+}
+
+.choosenFood {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.ratingNMBR {
+  font-size: 14px;
+}
+
+.star {
+  color: #ff8000;
+  line-height: 16px;
+  width: 14px;
+}
